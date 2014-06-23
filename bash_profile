@@ -1,6 +1,7 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
+PATH="/usr/local/bib:/usr/local/sbin:$PATH"
 
 alias ..="cd .."
 alias gadd="git add -A"

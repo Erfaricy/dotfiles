@@ -6,11 +6,12 @@ PATH="/usr/local/bib:/usr/local/sbin:$PATH"
 alias ..="cd .."
 alias gadd="git add -A"
 alias gcom="git commit -m"
-alias rs="rspec ."
+alias rs="rspec"
 alias gpush="git push -u origin master"
-alias bers="bundle exec rspec ."
+alias bers="bundle exec rspec"
 alias be="bundle exec"
 alias rgen="rails generate"
+alias bi="bundle install"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.

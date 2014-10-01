@@ -1,7 +1,9 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
-PATH="/usr/local/bib:/usr/local/sbin:$PATH"
+PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+PATH="/usr/local/CELLAR:$PATH"
+PATH="/usr/local/mysql/bin:$PATH"
 
 alias ..="cd .."
 alias gadd="git add -A"
@@ -61,3 +63,6 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

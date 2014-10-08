@@ -2,63 +2,97 @@
 # Usage: `brew bundle Brewfile`
 
 # Make sure we’re using the latest Homebrew
-update
+brew update
 
 # Upgrade any already-installed formulae
-upgrade
+brew upgrade
 
 # Install GNU core utilities (those that come with OS X are outdated)
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
-install coreutils
+brew install coreutils
 # Install some other useful utilities like `sponge`
-install moreutils
+brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
-install findutils
+brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`
-install gnu-sed --default-names
+brew install gnu-sed --default-names
 # Install Bash 4
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
-install bash
-install bash-completion
+brew install bash
+brew install bash-completion
 
 # Install wget with IRI support
-install wget --enable-iri
+brew install wget --enable-iri
 
 # Install RingoJS and Narwhal
-# Note that the order in which these are installed is important; see http://git.io/brew-narwhal-ringo.
-install ringojs
-install narwhal
+# Note that the order in which these are brew installed is important; see http://git.io/brew-narwhal-ringo.
+brew install ringojs
+brew install narwhal
 
 # Install more recent versions of some OS X tools
-install vim --override-system-vi
-install homebrew/dupes/grep
-install homebrew/dupes/screen
-install homebrew/php/php55 --with-gmp
+brew install vim --override-system-vi
+brew install homebrew/dupes/grep
+brew install homebrew/dupes/screen
+brew install homebrew/php/php55 --with-gmp
 
 # Install other useful binaries
-install ack
-install bfg
-#install exiv2
-install foremost
-install git
-install hashpump
-install imagemagick --with-webp
-install lynx
-install nmap
-install node # This installs `npm` too using the recommended installation method
-install p7zip
-install pigz
-install pv
-install rename
-install rhino
-install sqlmap
-install tree
-install ucspi-tcp # `tcpserver` et al.
-install webkit2png
-install xpdf
-install zopfli
+brew install ack
+brew install bfg
+#brew install exiv2
+brew install foremost
+brew install git
+brew install hashpump
+brew install imagemagick --with-webp
+brew install lynx
+brew install nmap
+brew install node # This brew installs `npm` too using the recommended brew installation method
+brew install p7zip
+brew install pigz
+brew install pv
+brew install rename
+brew install rhino
+brew install sqlmap
+brew install tree
+brew install ucspi-tcp # `tcpserver` et al.
+brew install webkit2png
+brew install xpdf
+brew install zopfli
 
-install homebrew/versions/lua52
+brew install homebrew/versions/lua52
+
+
+# Installing Cask
+brew install caskroom/cask/brew-cask
+brew tap caskroom/versions
+
+
+# Install Caskfiles
+brew cask install dropbox 2> /dev/null
+brew cask install google-chrome 2> /dev/null
+brew cask install google-chrome-canary 2> /dev/null
+brew cask install textmate 2> /dev/null
+brew cask install postgres 2> /dev/null
+brew cask install shiftit 2> /dev/null
+brew cask install node 2> /dev/null
+brew cask install dash 2> /dev/null
+
+brew cask install alfred
+brew cask install caffeine
+brew cask install flux
+
+brew cask install virtualbox
+brew cask install vagrant
+
+brew cask install phpstorm
+brew cask install sequel-pro
+
+brew cask install adium
+brew cask install nvalt
+brew cask install rdio
+brew cask install slack
+brew cask install textexpander
 
 # Remove outdated versions from the cellar
-cleanup
+brew linkapps --local
+brew cleanup
+brew prune

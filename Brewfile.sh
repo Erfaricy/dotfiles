@@ -39,7 +39,7 @@ FORMULAS=(
 		zopfli
 		homebrew/versions/lua52
 		caskroom/cask/brew-cask
-		
+		exercism
 )
 
 CASKS=(

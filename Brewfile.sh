@@ -43,7 +43,9 @@ FORMULAS=(
 )
 
 CASKS=(
-     dropbox 
+		 brogue 
+		 mailbox 
+		 dropbox 
 		 google-chrome 
 		 google-chrome-canary 
 		 textmate 
@@ -51,18 +53,15 @@ CASKS=(
 		 shiftit 
 		 node 
 		 dash 
-		 alfred
-		 caffeine
-		 flux
-		 virtualbox
-		 vagrant
-		 phpstorm
-		 sequel-pro
-		 adium
-		 nvalt
-		 rdio
-		 slack
-		 textexpander
+		 caffeine 
+		 flux 
+		 virtualbox 
+		 vagrant 
+		 rdio 
+		 slack 
+		 textexpander 
+		 league of legends 
+		 sketchup
 )
 
 function setup() {

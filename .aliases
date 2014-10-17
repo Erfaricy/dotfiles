@@ -6,6 +6,15 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
+alias gadd="git add -A"
+alias gcom="git commit -m"
+alias rs="rspec"
+alias gpush="git push -u"
+alias bers="bundle exec rspec"
+alias be="bundle exec"
+alias rgen="rails generate"
+alias bi="bundle install"
+
 # Shortcuts
 alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"

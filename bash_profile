@@ -5,16 +5,6 @@ PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 PATH="/usr/local/CELLAR:$PATH"
 PATH="/usr/local/mysql/bin:$PATH"
 
-alias ..="cd .."
-alias gadd="git add -A"
-alias gcom="git commit -m"
-alias rs="rspec"
-alias gpush="git push -u"
-alias bers="bundle exec rspec"
-alias be="bundle exec"
-alias rgen="rails generate"
-alias bi="bundle install"
-
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.

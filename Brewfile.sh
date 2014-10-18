@@ -11,6 +11,7 @@ TAPS=(
 )
 
 FORMULAS=(
+		bash
 		narwhal
 		"vim --override-system-vi"
 		homebrew/dupes/grep
@@ -35,7 +36,6 @@ FORMULAS=(
 		zopfli
 		homebrew/versions/lua52
 		caskroom/cask/brew-cask
-		exercism
 )
 
 CASKS=(

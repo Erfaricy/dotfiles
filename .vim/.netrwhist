@@ -1,8 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/emmettfaricy/Juice Beauty/juice-beauty/public/store'
-let g:netrw_dirhist_2='/Users/emmettfaricy/Juice Beauty/juice-beauty/public/store/js'
-let g:netrw_dirhist_3='/Users/emmettfaricy/Juice Beauty/juice-beauty/public/store'
-let g:netrw_dirhist_4='/Users/emmettfaricy/Juice Beauty/juice-beauty/public/store/js'
-let g:netrw_dirhist_5='/Users/emmettfaricy/Juice Beauty/juice-beauty/public/store/js/aw_all'
-let g:netrw_dirhist_6='/Users/emmettfaricy/.dotfiles'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/emmettfaricy/Desktop/skinquiz/app'
+let g:netrw_dirhist_2='/Users/emmettfaricy/Desktop/skinquiz/app/views'
+let g:netrw_dirhist_3='/Users/emmettfaricy/Desktop/skinquiz/app'

@@ -56,7 +56,8 @@ CASKS=(
 		 rdio 
 		 slack 
 		 textexpander 
-		 league of legends 
+		 league-of-legends 
+		 dungeon-crawl-stone-soup-tiles 
 		 sketchup 
 )
 

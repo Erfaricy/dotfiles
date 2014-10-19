@@ -57,3 +57,6 @@ eval "$(rbenv init -)"
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
+
+bind "set completion-ignore-case on"
+bind "set show-all-if-ambiguous on"

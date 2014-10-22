@@ -51,12 +51,8 @@ complete -W "NSGlobalDomain" defaults;
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
 
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-
 bind "set completion-ignore-case on"
 bind "set show-all-if-ambiguous on"
+
+bind '"\e[A": history-search-backward'
+bind '"\e[B": history-search-forward'

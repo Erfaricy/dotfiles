@@ -40,6 +40,7 @@ FORMULAS=(
 )
 
 CASKS=(
+		 alfred 
 		 evernote 
 		 brogue 
 		 mailbox 

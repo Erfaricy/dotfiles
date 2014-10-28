@@ -56,3 +56,4 @@ bind "set show-all-if-ambiguous on"
 
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
+eval "$(rbenv init -)"

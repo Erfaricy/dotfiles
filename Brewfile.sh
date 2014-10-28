@@ -37,6 +37,7 @@ FORMULAS=(
 		zopfli
 		homebrew/versions/lua52
 		caskroom/cask/brew-cask
+		rbenv ruby-build
 )
 
 CASKS=(

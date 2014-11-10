@@ -1,7 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/emmett/Projects/juice-beauty/public'
-let g:netrw_dirhist_2='/Users/emmett/Projects/juice-beauty/public/wp-content'
-let g:netrw_dirhist_3='/Users/emmett/Projects/juice-beauty/public/wp-content/themes'
-let g:netrw_dirhist_4='/Users/emmett/Projects/juice-beauty/public/wp-content/themes/juice-beauty'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Applications/MAMP/bin'
+let g:netrw_dirhist_2='/Applications/MAMP/bin/phpMyAdmin'
+let g:netrw_dirhist_3='/Users/emmett/dotfiles'
+let g:netrw_dirhist_4='/Users/emmett/dotfiles/.vim'
 let g:netrw_dirhist_5='/Users/emmett/dotfiles'
+let g:netrw_dirhist_6='/Users/emmett/dotfiles/.vim'

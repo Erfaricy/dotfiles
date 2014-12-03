@@ -57,3 +57,5 @@ bind "set show-all-if-ambiguous on"
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
 eval "$(rbenv init -)"
+PHP_AUTOCONF="/usr/local/bin/autoconf"
+export PATH="$(brew --prefix homebrew/php/php55)/sbin:$PATH"

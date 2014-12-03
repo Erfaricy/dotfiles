@@ -41,7 +41,6 @@ FORMULAS=(
 )
 
 CASKS=(
-		 alfred 
 		 evernote 
 		 brogue 
 		 mailbox 
@@ -53,7 +52,6 @@ CASKS=(
 		 shiftit 
 		 node 
 		 dash 
-		 caffeine 
 		 flux 
 		 virtualbox 
 		 vagrant 
@@ -61,7 +59,6 @@ CASKS=(
 		 slack 
 		 textexpander 
 		 league-of-legends 
-		 dungeon-crawl-stone-soup-tiles 
 		 sketchup 
 )
 

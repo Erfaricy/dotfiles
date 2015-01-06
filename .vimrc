@@ -5,6 +5,7 @@ let g:solarized_termcolors=256
 set background=dark
 colorscheme solarized
 
+:imap <C-Space> <C-X><C-O>
 set foldmethod=indent
 " Make Vim more useful
 set nocompatible

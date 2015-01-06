@@ -56,10 +56,7 @@ CASKS=(
 		 virtualbox 
 		 vagrant 
 		 rdio 
-		 slack 
-		 textexpander 
-		 league-of-legends 
-		 sketchup 
+		 textexpander
 )
 
 function setup() {

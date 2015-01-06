@@ -57,7 +57,10 @@ CASKS=(
 		 vagrant 
 		 rdio 
 		 textexpander
+		 hipchat
+		 anvil
 )
+
 
 function setup() {
     [ -x "/usr/local/bin/brew" ] || {

@@ -46,12 +46,9 @@ CASKS=(
 		 mailbox 
 		 dropbox 
 		 google-chrome 
-		 google-chrome-canary 
-		 textmate 
 		 postgres 
 		 shiftit 
 		 node 
-		 dash 
 		 flux 
 		 virtualbox 
 		 vagrant 
@@ -59,6 +56,7 @@ CASKS=(
 		 textexpander
 		 hipchat
 		 android-studio
+		 atom
 )
 
 

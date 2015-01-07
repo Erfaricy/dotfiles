@@ -58,7 +58,6 @@ CASKS=(
 		 rdio 
 		 textexpander
 		 hipchat
-		 anvil
 		 android-studio
 )
 

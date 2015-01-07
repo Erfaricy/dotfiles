@@ -12,14 +12,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # General UI/UX                                                               #
 ###############################################################################
 
-# Disable the sound effects on boot
-# sudo nvram SystemAudioVolume= ""
-
-# Menu bar: disable transparency
-defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
-
-# Set Dock to bottom
-# defaults write com.apple.dock pinning -string end
 
 # Set highlight color to green
 defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
@@ -54,9 +46,6 @@ defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 # Display ASCII control characters using caret notation in standard text views
 # Try e.g. `cd /tmp; unidecode "\x{0000}" > cc.txt; open -e cc.txt`
 defaults write NSGlobalDomain NSTextShowsControlCharacters -bool true
-
-# Disable the crash reporter
-#defaults write com.apple.CrashReporter DialogType -string "none"
 
 # Set Help Viewer windows to non-floating mode
 defaults write com.apple.helpviewer DevMode -bool true
@@ -350,7 +339,7 @@ sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulato
 # 12: Notification Center
 
 # Bottom left screen corner → Start screen saver
-defaults write com.apple.dock wvous-bl-corner -int 5
+defaults write com.apple.dock wvous-bl-corner -int 10
 defaults write com.apple.dock wvous-bl-modifier -int 0
 
 ###############################################################################

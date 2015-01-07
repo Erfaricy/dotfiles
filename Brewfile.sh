@@ -56,6 +56,7 @@ CASKS=(
 		 textexpander
 		 hipchat
 		 android-studio
+		 skitch
 		 atom
 )
 

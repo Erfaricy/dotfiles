@@ -4,8 +4,14 @@ let g:solarized_termtrans=1
 let g:solarized_termcolors=256
 set background=dark
 colorscheme solarized
+map <C-n> :NERDTreeToggle<CR>
 
-:imap <C-Space> <C-X><C-O>
+set autoindent
+filetype on
+filetype plugin on
+filetype indent on
+set ft=html.javascript
+
 set foldmethod=indent
 " Make Vim more useful
 set nocompatible

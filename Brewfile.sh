@@ -12,6 +12,7 @@ TAPS=(
 
 FORMULAS=(
 		mysql
+		tmux
 		bash
 		narwhal
 		"vim --override-system-vi"
@@ -41,6 +42,7 @@ FORMULAS=(
 )
 
 CASKS=(
+		 slack
 		 evernote 
 		 brogue 
 		 mailbox 

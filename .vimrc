@@ -5,6 +5,7 @@ let g:solarized_termcolors=256
 set background=dark
 colorscheme solarized
 map <C-n> :NERDTreeToggle<CR>
+set directory=.,$TEMP
 
 set autoindent
 filetype on
@@ -80,6 +81,7 @@ set shortmess=atI
 set showmode
 " Show the filename in the window titlebar
 set title
+set title titlestring= 
 " Show the (partial) command as it’s being typed
 set showcmd
 " Use relative line numbers

@@ -5,15 +5,24 @@ let g:solarized_termcolors=256
 set background=dark
 colorscheme solarized
 map <C-n> :NERDTreeToggle<CR>
-set directory=.,$TEMP
 
-set autoindent
+scriptencoding utf-8
+set encoding=utf-8
+
 filetype on
 filetype plugin on
 filetype indent on
 set ft=html.javascript
 
+set textwidth=0 
+set wrapmargin=0
+set nowrap
+
+
+highlight ColorColumn ctermbg=magenta
+call matchadd('ColorColumn', '\%81v', 100)
 set foldmethod=indent
+
 " Make Vim more useful
 set nocompatible
 " Use the OS clipboard by default (on versions compiled with `+clipboard`)
@@ -57,8 +66,9 @@ set shiftwidth=2
 " Make tabs as wide as two spaces
 set tabstop=2
 " Show “invisible” characters
-set lcs=tab:\|\ ,trail:·,eol:¬,nbsp:_
+set listchars=tab:\|\ ,trail:·,eol:¬,nbsp:_
 set list
+					
 " Highlight searches
 set hlsearch
 " Ignore case of searches

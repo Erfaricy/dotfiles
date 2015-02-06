@@ -23,6 +23,10 @@ let g:ctrlp_working_path_mode = 0
 let g:ctrlp_dotfiles = 0
 let g:ctrlp_switch_buffer = 0
 
+nnoremap j gj
+nnoremap k gk
+nnoremap ; :
+
 scriptencoding utf-8
 set encoding=utf-8
 

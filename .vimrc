@@ -6,6 +6,23 @@ set background=dark
 colorscheme solarized
 map <C-n> :NERDTreeToggle<CR>
 
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+let g:ctrlp_map = '<Leader>t'
+let g:ctrlp_match_window_bottom = 0
+let g:ctrlp_match_window_reversed = 0
+let g:ctrlp_custom_ignore = '\v\~$|\.(o|swp|pyc|wav|mp3|ogg|blend)$|(^|[/\\])\.(hg|git|bzr)($|[/\\])|__init__\.py'
+let g:ctrlp_working_path_mode = 0
+let g:ctrlp_dotfiles = 0
+let g:ctrlp_switch_buffer = 0
+
 scriptencoding utf-8
 set encoding=utf-8
 
@@ -19,7 +36,7 @@ set wrapmargin=0
 set nowrap
 
 
-highlight ColorColumn ctermbg=magenta
+highlight ColorColumn ctermbg=White ctermfg=Black
 call matchadd('ColorColumn', '\%81v', 100)
 set foldmethod=indent
 
@@ -68,7 +85,6 @@ set tabstop=2
 " Show “invisible” characters
 set listchars=tab:\|\ ,trail:·,eol:¬,nbsp:_
 set list
-					
 " Highlight searches
 set hlsearch
 " Ignore case of searches

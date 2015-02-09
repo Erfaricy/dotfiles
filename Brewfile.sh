@@ -40,6 +40,7 @@ FORMULAS=(
 		caskroom/cask/brew-cask
 		rbenv ruby-build
 		"git bash-completion"
+		htop
 )
 
 CASKS=(

@@ -39,6 +39,7 @@ FORMULAS=(
 		homebrew/versions/lua52
 		caskroom/cask/brew-cask
 		rbenv ruby-build
+		"git bash-completion"
 )
 
 CASKS=(

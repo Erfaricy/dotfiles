@@ -62,6 +62,7 @@ CASKS=(
 		 android-studio
 		 skitch
 		 atom
+		 dashlane
 )
 
 

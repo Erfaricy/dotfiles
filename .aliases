@@ -12,7 +12,7 @@ alias gpush="git push -u"
 alias gstat="git status"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox\ \(Mixpanel\)/"
+alias d="cd ~/Dropbox\ \(Mixpanel\)/"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"

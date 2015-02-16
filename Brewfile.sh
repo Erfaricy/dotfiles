@@ -11,6 +11,7 @@ TAPS=(
 )
 
 FORMULAS=(
+		jq
 		mysql
 		tmux
 		bash

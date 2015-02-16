@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[core]
+# Please adapt and uncomment the following lines:
+#	user = Emmett Faricy
+#	email = emmett@mixpanel.com
+[user]
+	email = Emmett@mixpanel.com
+	name = Emmett Faricy
+[core]
+	excludesfile = /Users/emmettfaricy/.gitignore

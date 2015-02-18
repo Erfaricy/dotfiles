@@ -30,6 +30,7 @@ alias gst='git stash'
 alias gstl='git stash list'
 alias gstp='git stash pop'
 alias gstd='git stash drop'
+alias gup='!git fetch origin && git rebase origin/master'
 
 # Shortcuts
 alias d="cd ~/Dropbox\ \(Mixpanel\)/"

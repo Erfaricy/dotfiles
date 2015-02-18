@@ -9,6 +9,7 @@ alias -- -="cd -"
 alias ga="git add"
 alias gc="git commit -m"
 alias gp="git push -u"
+alias gpm="git push -u origin master"
 alias gs='echo ""; echo "*********************************************"; echo -e "   DO NOT FORGET TO PULL BEFORE COMMITTING"; echo "*********************************************"; echo ""; git status'
 alias gaa='git add -A'
 alias gb='git branch'

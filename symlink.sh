@@ -7,5 +7,5 @@
 find . -maxdepth 1 -name ".*" | while read -r file;
 do
     echo "Creating symlink to $file in home directory."
-    ln -s $dir/$file ~/.$file
+    ln -s $dir/$file ~/$file
 done

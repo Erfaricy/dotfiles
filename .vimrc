@@ -4,8 +4,14 @@ let g:solarized_termtrans=1
 let g:solarized_termcolors=256
 set background=dark
 colorscheme solarized
+
+" Set Nerd Tree Toggle
 map <C-n> :NERDTreeToggle<CR>
 
+" Set clear highlight
+map _ :nohl<CR>
+
+" Syntastic settigs
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
@@ -16,6 +22,7 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+" Fuzzy Finder kets
 let g:ctrlp_map = '<Leader>t'
 let g:ctrlp_match_window_bottom = 0
 let g:ctrlp_match_window_reversed = 0
@@ -24,6 +31,7 @@ let g:ctrlp_working_path_mode = 0
 let g:ctrlp_dotfiles = 0
 let g:ctrlp_switch_buffer = 0
 
+" Remap j/k and :
 nnoremap j gj
 nnoremap k gk
 nnoremap ; :

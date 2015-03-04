@@ -11,59 +11,61 @@ TAPS=(
 )
 
 FORMULAS=(
-		jq
-		mysql
-		tmux
-		bash
-		narwhal
-		"vim --override-system-vi"
-		homebrew/dupes/grep
-		homebrew/dupes/screen
-		"homebrew/php/php55 --with-gmp"
-		ack
-		git
-		"imagemagick --with-webp"
-		lynx
-		nmap
-		node 
-		p7zip
-		pigz
-		pv
-		rename
-		rhino
-		sqlmap
-		tree
-		ucspi-tcp # `tcpserver` et al.
-		webkit2png
-		xpdf
-		zopfli
-		homebrew/versions/lua52
-		caskroom/cask/brew-cask
-		rbenv ruby-build
-		"git bash-completion"
-		htop
+    jq
+    mysql
+    tmux
+    bash
+    narwhal
+    "vim --override-system-vi"
+    homebrew/dupes/grep
+    homebrew/dupes/screen
+    "homebrew/php/php55 --with-gmp"
+    ack
+    git
+    "imagemagick --with-webp"
+    lynx
+    nmap
+    markdown
+    node 
+    p7zip
+    pigz
+    pv
+    rename
+    rhino
+    sqlmap
+    tree
+    ucspi-tcp # `tcpserver` et al.
+    webkit2png
+    xpdf
+    zopfli
+    homebrew/versions/lua52
+    caskroom/cask/brew-cask
+    rbenv ruby-build
+    "git bash-completion"
+    htop
+    git-flow
 )
 
 CASKS=(
-		 slack
-		 evernote 
-		 brogue 
-		 mailbox 
-		 dropbox 
-		 google-chrome 
-		 postgres 
-		 shiftit 
-		 node 
-		 flux 
-		 virtualbox 
-		 vagrant 
-		 rdio 
-		 textexpander
-		 hipchat
-		 android-studio
-		 skitch
-		 atom
-		 dashlane
+     slack
+     evernote 
+     brogue 
+     mailbox 
+     dropbox 
+     google-chrome 
+     postgres 
+     shiftit 
+     node 
+     flux 
+     virtualbox 
+     vagrant 
+     rdio 
+     textexpander
+     hipchat
+     android-studio
+     skitch
+     atom
+     dashlane
 )
 
 
@@ -97,11 +99,11 @@ function main() {
 
     install_brewfiles
     install_caskfiles
-		
-		brew linkapps --local
+    
+    brew linkapps --local
     brew cleanup
     brew doctor
-		brew prune
+    brew prune
 }
 
 main

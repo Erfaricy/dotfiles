@@ -30,6 +30,13 @@ let g:ctrlp_custom_ignore = '\v\~$|\.(o|swp|pyc|wav|mp3|ogg|blend)$|(^|[/\\])\.(
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_dotfiles = 0
 let g:ctrlp_switch_buffer = 0
+let g:ctrlp_extensions = ['funky']
+
+" Funky Finder
+nnoremap ƒ :CtrlPFunky<Cr>
+" narrow the list down with a word under cursor
+nnoremap ∂ :execute 'CtrlPFunky ' . expand('<cword>')<Cr>
+
 
 " Remap j/k and :
 nnoremap j gj
@@ -51,7 +58,6 @@ set nowrap
 
 highlight ColorColumn ctermbg=White ctermfg=Black
 call matchadd('ColorColumn', '\%81v', 100)
-set foldmethod=indent
 
 " Make Vim more useful
 set nocompatible

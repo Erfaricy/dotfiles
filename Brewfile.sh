@@ -8,6 +8,7 @@ TAPS=(
     homebrew/versions
     homebrew/science
     josegonzalez/php
+    homebrew/games
 )
 
 FORMULAS=(

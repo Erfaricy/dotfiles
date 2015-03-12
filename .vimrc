@@ -5,38 +5,6 @@ let g:solarized_termcolors=256
 set background=dark
 colorscheme solarized
 
-" Set Nerd Tree Toggle
-map <C-n> :NERDTreeToggle<CR>
-
-" Set clear highlight
-map _ :nohl<CR>
-
-" Syntastic settigs
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_javascript_checkers= ['jshint']
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-
-" Fuzzy Finder kets
-let g:ctrlp_map = '<Leader>t'
-let g:ctrlp_match_window_bottom = 0
-let g:ctrlp_match_window_reversed = 0
-let g:ctrlp_custom_ignore = '\v\~$|\.(o|swp|pyc|wav|mp3|ogg|blend)$|(^|[/\\])\.(hg|git|bzr)($|[/\\])|__init__\.py'
-let g:ctrlp_working_path_mode = 0
-let g:ctrlp_dotfiles = 0
-let g:ctrlp_switch_buffer = 0
-let g:ctrlp_extensions = ['funky']
-
-" Funky Finder
-nnoremap ƒ :CtrlPFunky<Cr>
-" narrow the list down with a word under cursor
-nnoremap ∂ :execute 'CtrlPFunky ' . expand('<cword>')<Cr>
-
 
 " Remap j/k and :
 nnoremap j gj
@@ -149,6 +117,38 @@ endfunction
 noremap <leader>ss :call StripWhitespace()<CR>
 " Save a file as root (,W)
 noremap <leader>W :w !sudo tee % > /dev/null<CR>
+
+" Set Nerd Tree Toggle
+map <C-n> :NERDTreeToggle<CR>
+
+" Set clear highlight
+map _ :nohl<CR>
+
+" Syntastic settigs
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_javascript_checkers= ['jshint']
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+" Fuzzy Finder kets
+let g:ctrlp_map = '<Leader>t'
+let g:ctrlp_match_window_bottom = 0
+let g:ctrlp_match_window_reversed = 0
+let g:ctrlp_custom_ignore = '\v\~$|\.(o|swp|pyc|wav|mp3|ogg|blend)$|(^|[/\\])\.(hg|git|bzr)($|[/\\])|__init__\.py'
+let g:ctrlp_working_path_mode = 0
+let g:ctrlp_dotfiles = 0
+let g:ctrlp_switch_buffer = 0
+let g:ctrlp_extensions = ['funky']
+
+" Funky Finder
+noremap <leader>f :CtrlPFunky<Cr>
+" narrow the list down with a word under cursor
+noremap <leader>F :execute 'CtrlPFunky ' . expand('<cword>')<Cr>
 
 " Automatic commands
 if has("autocmd")

@@ -27,7 +27,7 @@ FORMULAS=(
     lynx
     nmap
     markdown
-    node 
+    node
     p7zip
     pigz
     pv
@@ -49,18 +49,19 @@ FORMULAS=(
 
 CASKS=(
      slack
-     evernote 
-     brogue 
-     mailbox 
-     dropbox 
-     google-chrome 
-     postgres 
-     shiftit 
-     node 
-     flux 
-     virtualbox 
-     vagrant 
-     rdio 
+     karabiner
+     evernote
+     brogue
+     mailbox
+     dropbox
+     google-chrome
+     postgres
+     shiftit
+     node
+     flux
+     virtualbox
+     vagrant
+     rdio
      textexpander
      hipchat
      android-studio
@@ -100,7 +101,7 @@ function main() {
 
     install_brewfiles
     install_caskfiles
-    
+
     brew linkapps --local
     brew cleanup
     brew doctor

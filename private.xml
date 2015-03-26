@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<root>
+<item>
+<name>HHKB to CTRL</name>
+    <identifier>private.swap_hhkb_ctrl</identifier>
+    <autogen>__KeyToKey__
+        KeyCode:: BACKQUOTE,
+        KeyCode:: CONTROL_L
+    </autogen>
+</item>
+<item>
+    <name>JIS_UNDERSCORE BACKTICK</name>
+    <identifier>private.swap_underscoer_backqoute</identifier>
+    <autogen>__KeyToKey__
+        KeyCode:: JIS_UNDERSCORE,
+        KeyCode:: BACKQUOTE
+    </autogen>
+</item>
+</root>

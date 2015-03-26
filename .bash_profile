@@ -1,5 +1,6 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
+export PATH="~/Library/Android/sdk/platform-tools:~/Library/Android/sdk/tools:$PATH"
 PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
 PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 PATH="/usr/local/CELLAR:$PATH"

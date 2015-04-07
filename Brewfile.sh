@@ -17,6 +17,7 @@ FORMULAS=(
     tmux
     bash
     narwhal
+    chromedriver
     "vim --override-system-vi"
     homebrew/dupes/grep
     homebrew/dupes/screen

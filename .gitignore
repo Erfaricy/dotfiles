@@ -40,4 +40,5 @@ Thumbs.db
 # Vim Stuff #
 #############
 *.pyc
+.netwrhist
 *.swp

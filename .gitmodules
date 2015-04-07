@@ -1,0 +1,18 @@
+[submodule ".vim/bundle/ctrlp.vim"]
+	path = .vim/bundle/ctrlp.vim
+	url = git@github.com:kien/ctrlp.vim.git
+[submodule ".vim/bundle/ctrlp-funky"]
+	path = .vim/bundle/ctrlp-funky
+	url = git@github.com:vim-scripts/ctrlp-funky.git
+[submodule ".vim/bundle/jshint"]
+	path = .vim/bundle/jshint
+	url = git@github.com:jshint/jshint.git
+[submodule ".vim/bundle/syntastic"]
+	path = .vim/bundle/syntastic
+	url = git@github.com:scrooloose/syntastic.git
+[submodule ".vim/bundle/autoswap.vim"]
+	path = .vim/bundle/autoswap.vim
+	url = git@github.com:vim-scripts/autoswap.vim.git
+[submodule ".vim/bundle/nerdtree"]
+	path = .vim/bundle/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git

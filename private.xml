@@ -4,7 +4,7 @@
 <name>HHKB -> CTRL</name>
     <identifier>private.swap_hhkb_ctrl</identifier>
     <autogen> __KeyToKey__
-        KeyCode:: BACKQUOTE,
+        KeyCode:: CAPSLOCK,
         KeyCode:: CONTROL_L
     </autogen>
 </item>

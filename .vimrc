@@ -21,7 +21,7 @@ set ft=html.javascript
 
 set textwidth=0 
 set wrapmargin=0
-set nowrap
+set wrap
 
 
 highlight ColorColumn ctermbg=White ctermfg=Black

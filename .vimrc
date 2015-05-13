@@ -50,7 +50,7 @@ set binary
 set noeol
 " Centralize backups, swapfiles and undo history
 set backupdir=~/.vim/backups
-set directory=~/.vim/swaps
+set directory=.,$TEMP
 if exists("&undodir")
 	set undodir=~/.vim/undo
 endif

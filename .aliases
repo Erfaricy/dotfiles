@@ -5,6 +5,10 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
+alias admin="python manage.py"
+
+alias :w="toilet -f mono12 -F gay derp"
+alias :q="toilet -f mono12 -F gay derp"
 
 alias ga="git add"
 alias gc="git commit -m"
@@ -106,7 +110,7 @@ jscbin="/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources
 unset jscbin;
 
 # Trim new lines and copy to clipboard
-alias c="tr -d '\n' | pbcopy"
+# alias c="tr -d '\n' | pbcopy"
 
 # Recursively delete `.DS_Store` files
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"

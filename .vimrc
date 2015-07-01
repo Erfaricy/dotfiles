@@ -27,6 +27,9 @@ set wrap
 highlight ColorColumn ctermbg=White ctermfg=Black
 call matchadd('ColorColumn', '\%81v', 100)
 
+onoremap <silent> j gj
+onoremap <silent> k gk
+
 " Make Vim more useful
 set nocompatible
 " Use the OS clipboard by default (on versions compiled with `+clipboard`)

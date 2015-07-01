@@ -14,6 +14,7 @@ TAPS=(
 FORMULAS=(
     jq
     mysql
+    toilet
     tmux
     bash
     narwhal

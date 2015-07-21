@@ -46,6 +46,7 @@ FORMULAS=(
     "git bash-completion"
     htop
     git-flow
+    bash-git-prompt
 )
 
 CASKS=(

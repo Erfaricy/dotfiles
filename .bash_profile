@@ -30,6 +30,9 @@ for option in autocd globstar; do
 	shopt -s "$option" 2> /dev/null;
 done;
 
+if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
+    source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
+fi
 # Add tab completion for many Bash commands
 if which brew > /dev/null && [ -f "$(brew --prefix)/etc/bash_completion" ]; then
 	source "$(brew --prefix)/etc/bash_completion";

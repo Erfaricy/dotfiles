@@ -5,7 +5,7 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
-
+alias admin="python manage.py"
 alias ga="git add"
 alias gc="git commit -m"
 alias gp="git push -u"

@@ -21,11 +21,14 @@ set ft=html.javascript
 
 set textwidth=0 
 set wrapmargin=0
-set nowrap
+set wrap
 
 
 highlight ColorColumn ctermbg=White ctermfg=Black
 call matchadd('ColorColumn', '\%81v', 100)
+
+onoremap <silent> j gj
+onoremap <silent> k gk
 
 " Make Vim more useful
 set nocompatible

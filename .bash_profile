@@ -1,6 +1,7 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
-export PATH="~/Library/Android/sdk/platform-tools:~/Library/Android/sdk/tools:$PATH"
+PATH="/home/emmett/.local/bin/:$PATH" 
+PATH="~/Library/Android/sdk/platform-tools:~/Library/Android/sdk/tools:$PATH"
 PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
 PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 PATH="/usr/local/CELLAR:$PATH"
@@ -76,3 +77,5 @@ bind '"\e[B": history-search-forward'
 eval "$(rbenv init -)"
 PHP_AUTOCONF="/usr/local/bin/autoconf"
 export PATH="$(brew --prefix homebrew/php/php55)/sbin:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"

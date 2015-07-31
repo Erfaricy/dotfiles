@@ -66,7 +66,6 @@ CASKS=(
      vagrant
      rdio
      textexpander
-     hipchat
      android-studio
      skitch
      atom

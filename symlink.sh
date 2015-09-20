@@ -8,5 +8,3 @@ for file in {.bash_prompt,.bash_profile,.gitconfig,.gitignore,.screenrc,.tmux.co
     echo "Creating symlink to $file in home directory."
     ln -s ~/dotfiles/$file ~/$file
 done
-rm ~/Library/Application\ Support/Karabiner/private.xml
-ln -s ~/dotfiles/private.xml ~/Library/Application\ Support/Karabiner/private.xml

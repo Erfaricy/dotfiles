@@ -51,6 +51,7 @@ FORMULAS=(
 )
 
 CASKS=(
+     alfred
      slack
      karabiner
      evernote

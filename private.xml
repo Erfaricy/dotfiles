@@ -1,5 +1,12 @@
-<?xml version="1.0"?>
+<?XML VERSION="1.0"?>
 <root>
+<item>
+  <name>[]\ to media keys</name>
+  <identifier>mediakeys</identifier>
+  <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, VK_CONTROL | ModifierFlag::CONTROL_L, KeyCode::VK_CONSUMERKEY_MUSIC_PREV</autogen>
+  <autogen>__KeyToKey__ KeyCode::BACKSLASH, VK_CONTROL | ModifierFlag::CONTROL_L, KeyCode::VK_CONSUMERKEY_MUSIC_PLAY</autogen>
+  <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, VK_CONTROL | ModifierFlag::CONTROL_L, KeyCode::VK_CONSUMERKEY_MUSIC_NEXT</autogen>
+</item>
 <item>
 <name>HHKB -> CTRL</name>
     <identifier>private.swap_hhkb_ctrl</identifier>

@@ -48,6 +48,8 @@ FORMULAS=(
     htop
     git-flow
     bash-git-prompt
+    ffmpeg
+    youtube-dl
 )
 
 CASKS=(

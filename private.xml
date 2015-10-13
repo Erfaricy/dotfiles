@@ -1,6 +1,11 @@
 <?XML VERSION="1.0"?>
 <root>
 <item>
+    <name>Del to shift keys</name>
+    <identifier>Shift</identifier>
+    <autogen>__KeyToKey__ KeyCode::FORWARD_DELETE, KeyCode::SHIFT_R</autogen>
+</itme>
+<item>
   <name>[]\ to media keys</name>
   <identifier>mediakeys</identifier>
   <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, VK_CONTROL | ModifierFlag::CONTROL_L, KeyCode::VK_CONSUMERKEY_MUSIC_PREV</autogen>

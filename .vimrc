@@ -68,11 +68,12 @@ set secure
 set number
 " Highlight current line
 set cursorline
+" Make tabs as wide as two spaces
+set tabstop=2
+set expandtab
+set autoindent
 " Set autoindent to two spaces
 set shiftwidth=2
-" Make tabs as wide as two spaces
-set expandtab
-set tabstop=2
 " Show “invisible” characters
 set listchars=tab:\|\ ,trail:·,eol:¬,nbsp:_
 set list
@@ -171,3 +172,8 @@ if has("autocmd")
   " Treat .json files as .js
   autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 endif
+
+nnoremap <leader>sc :SyntasticCheck<CR>
+nnoremap <leader>sd :SyntasticToggleMode<CR>
+noremap <leader>n :lnext<CR>
+noremap <leader>b :lprevious<CR>

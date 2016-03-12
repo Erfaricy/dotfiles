@@ -58,18 +58,13 @@ CASKS=(
      karabiner
      evernote
      brogue
-     mailbox
      dropbox
      google-chrome
      postgres
      shiftit
      node
      flux
-     virtualbox
-     vagrant
-     rdio
      textexpander
-     android-studio
      skitch
      atom
      dashlane

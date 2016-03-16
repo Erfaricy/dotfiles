@@ -53,7 +53,6 @@ FORMULAS=(
 )
 
 CASKS=(
-     alfred
      slack
      karabiner
      evernote
@@ -62,11 +61,8 @@ CASKS=(
      google-chrome
      postgres
      shiftit
-     node
      flux
-     textexpander
      skitch
-     atom
      dashlane
 )
 

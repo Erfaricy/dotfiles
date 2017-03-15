@@ -134,7 +134,8 @@ endfunction
 noremap <leader>m :call MetaChar()<CR>
 
 " Set Nerd Tree Toggle
-map <C-n> :NERDTreeToggle<CR>
+" map <C-n> :NERDTreeToggle<CR>
+map <Tab> :NERDTreeToggle<CR>
 
 " Set clear highlight
 map _ :nohl<CR>

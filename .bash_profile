@@ -6,6 +6,8 @@ PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
 PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 PATH="/usr/local/CELLAR:$PATH"
 PATH="/usr/local/mysql/bin:$PATH"
+PATH="~/.npm-packages/lib:$PATH"
+PATH="~/.npm/bin:$PATH"
 # set where virutal environments will live
 export WORKON_HOME=$HOME/.virtualenvs
 # ensure all new environments are isolated from the site-packages directory

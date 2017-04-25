@@ -68,12 +68,12 @@ set secure
 set number
 " Highlight current line
 set cursorline
-" Make tabs as wide as two spaces
-set tabstop=2
-set expandtab
+" Make tabs as wide as four spaces
+set tabstop=4
+set softtabstop=4
 set autoindent
 " Set autoindent to two spaces
-set shiftwidth=2
+set shiftwidth=4
 " Show “invisible” characters
 set listchars=tab:\|\ ,trail:·,eol:¬,nbsp:_
 set list

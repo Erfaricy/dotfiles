@@ -4,7 +4,8 @@ let g:solarized_termtrans=1
 let g:solarized_termcolors=256
 set background=dark
 colorscheme solarized
-
+autocmd vimenter * silent! lcd %:p:h
+set autochdir
 
 " Remap j/k and :
 nnoremap j gj
@@ -71,8 +72,10 @@ set cursorline
 " Make tabs as wide as four spaces
 set tabstop=4
 set softtabstop=4
+set shiftwidth=4
+set expandtab
 set autoindent
-" Set autoindent to two spaces
+" Set autoindent to 4 spaces
 set shiftwidth=4
 " Show “invisible” characters
 set listchars=tab:\|\ ,trail:·,eol:¬,nbsp:_
@@ -133,10 +136,21 @@ endfunction
 
 noremap <leader>m :call MetaChar()<CR>
 
+function! NERDTreeToggleInCurDir()
+  " If NERDTree is open in the current buffer
+  if (exists("t:NERDTreeBufName") && bufwinnr(t:NERDTreeBufName) != -1)
+    exe ":NERDTreeClose"
+  else
+    if (expand("%:t") != '')
+      exe ":NERDTreeFind"
+    else
+      exe ":NERDTreeToggle"
+    endif
+  endif
+endfunction
 " Set Nerd Tree Toggle
-" map <C-n> :NERDTreeToggle<CR>
-map <Tab> :NERDTreeToggle<CR>
 
+map <Tab> :call NERDTreeToggleInCurDir()  <CR>
 " Set clear highlight
 map _ :nohl<CR>
 

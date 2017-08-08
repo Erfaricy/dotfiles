@@ -1,13 +1,14 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 PATH="/home/emmett/.local/bin:$PATH" 
-PATH="~/Library/Android/sdk/platform-tools:~/Library/Android/sdk/tools:$PATH"
+
 PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
 PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 PATH="/usr/local/CELLAR:$PATH"
 PATH="/usr/local/mysql/bin:$PATH"
 PATH="~/.npm-packages/lib:$PATH"
 PATH="~/.npm/bin:$PATH"
+
 # set where virutal environments will live
 export WORKON_HOME=$HOME/.virtualenvs
 # ensure all new environments are isolated from the site-packages directory
@@ -76,8 +77,5 @@ bind "set show-all-if-ambiguous on"
 
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
-eval "$(rbenv init -)"
 PHP_AUTOCONF="/usr/local/bin/autoconf"
 export PATH="$(brew --prefix homebrew/php/php55)/sbin:$PATH"
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"

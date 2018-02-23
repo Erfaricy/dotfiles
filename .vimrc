@@ -192,3 +192,4 @@ nnoremap <leader>sc :SyntasticCheck<CR>
 nnoremap <leader>sd :SyntasticToggleMode<CR>
 noremap <leader>n :lnext<CR>
 noremap <leader>b :lprevious<CR>
+set wildignore=*.swp,*.bak,*.pyc,*.class,*.jar,*.gif,*.png,*.jpg

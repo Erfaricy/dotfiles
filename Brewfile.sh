@@ -55,13 +55,11 @@ FORMULAS=(
 CASKS=(
      slack
      karabiner
-     evernote
      brogue
      dropbox
      google-chrome
      postgres
      shiftit
-     flux
      skitch
      dashlane
 )

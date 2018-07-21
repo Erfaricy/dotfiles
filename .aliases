@@ -33,6 +33,7 @@ alias gstp='git stash pop'
 alias gstd='git stash drop'
 alias gup='git fetch origin && git rebase origin/master'
 alias npms='npm install --save'
+alias npmd='npm install --save-dev'
 # Shortcuts
 alias d="cd ~/Dropbox\ \(Mixpanel\)/"
 alias dl="cd ~/Downloads"
@@ -72,7 +73,7 @@ alias week='date +%V'
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update --system; sudo gem update'
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g;'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"

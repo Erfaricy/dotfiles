@@ -54,7 +54,6 @@ FORMULAS=(
 
 CASKS=(
      slack
-     karabiner
      brogue
      dropbox
      google-chrome

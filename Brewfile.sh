@@ -12,6 +12,8 @@ TAPS=(
 )
 
 FORMULAS=(
+    mongodb
+    nvm
     jq
     mysql
     toilet

@@ -13,7 +13,6 @@ TAPS=(
 
 FORMULAS=(
     mongodb
-    nvm
     jq
     mysql
     toilet
@@ -31,7 +30,6 @@ FORMULAS=(
     lynx
     nmap
     markdown
-    node
     p7zip
     pigz
     pv
@@ -51,7 +49,6 @@ FORMULAS=(
     git-flow
     bash-git-prompt
     ffmpeg
-    youtube-dl
 )
 
 CASKS=(

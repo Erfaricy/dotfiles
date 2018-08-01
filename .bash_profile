@@ -9,8 +9,9 @@ PATH="~/.npm-packages/lib:$PATH"
 PATH="~/.npm/bin:$PATH"
 PATH="$HOME/bin:$PATH";
 
- export NVM_DIR="$HOME/.nvm"
-  . "/usr/local/opt/nvm/nvm.sh"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 SSH_ENV="$HOME/.ssh/environment"
 function start_agent {
@@ -60,15 +61,15 @@ for option in autocd globstar; do
     shopt -s "$option" 2> /dev/null;
 done;
 
-if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
-    source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
-fi
+ if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
+     source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
+ fi
 # Add tab completion for many Bash commands
-if which brew > /dev/null && [ -f "$(brew --prefix)/etc/bash_completion" ]; then
-  source "$(brew --prefix)/etc/bash_completion";
-elif [ -f /etc/bash_completion ]; then
-  source /etc/bash_completion;
-fi;
+# if which brew > /dev/null && [ -f "$(brew --prefix)/etc/bash_completion" ]; then
+#   source "$(brew --prefix)/etc/bash_completion";
+# elif [ -f /etc/bash_completion ]; then
+#   source /etc/bash_completion;
+# fi;
 
 # Enable tab completion for `g` by marking it as an alias for `git`
 if type _git &> /dev/null && [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then

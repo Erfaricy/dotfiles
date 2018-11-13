@@ -154,33 +154,11 @@ endfunction
 map <Tab> :call NERDTreeToggleInCurDir()  <CR>
 " Set clear highlight
 map _ :nohl<CR>
-
-" Syntastic settigs
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-
-" let g:syntastic_javascript_checkers= ['jshint']
-" let g:syntastic_always_populate_loc_list = 1
-" let g:syntastic_auto_loc_list = 1
-" let g:syntastic_check_on_open = 1
-" let g:syntastic_check_on_wq = 0
-" 
-" Fuzzy Finder kets
-let g:ctrlp_map = '<Leader>t'
-let g:ctrlp_match_window_bottom = 0
-let g:ctrlp_match_window_reversed = 0
-let g:ctrlp_custom_ignore = '\v\~$|\.(o|swp|pyc|wav|mp3|ogg|blend)$|(^|[/\\])\.(hg|git|bzr)($|[/\\])|__init__\.py'
-let g:ctrlp_working_path_mode = 0
-let g:ctrlp_dotfiles = 0
-let g:ctrlp_switch_buffer = 0
-let g:ctrlp_extensions = ['funky']
-
-" Funky Finder
-noremap <leader>f :CtrlPFunky<Cr>
-" narrow the list down with a word under cursor
-noremap <leader>F :execute 'CtrlPFunky ' . expand('<cword>')<Cr>
+"
+" In ~/.vim/vimrc, or somewhere similar.
+let g:ale_linters = {
+\   'javascript': ['eslint'],
+\}
 
 " Automatic commands
 if has("autocmd")
@@ -190,8 +168,8 @@ if has("autocmd")
   autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 endif
 
-nnoremap <leader>sc :SyntasticCheck<CR>
-nnoremap <leader>sd :SyntasticToggleMode<CR>
+" nnoremap <leader>sc :SyntasticCheck<CR>
+" nnoremap <leader>sd :SyntasticToggleMode<CR>
 noremap <leader>n :lnext<CR>
 noremap <leader>b :lprevious<CR>
 set wildignore=*.swp,*.bak,*.pyc,*.class,*.jar,*.gif,*.png,*.jpg

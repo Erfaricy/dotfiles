@@ -1,4 +1,5 @@
-execute pathogen#infect()
+so ~/.vim/plugins.vim
+
 syntax on
 let g:solarized_termtrans=1
 let g:solarized_termcolors=256

@@ -2,6 +2,10 @@
 #######
 node_modules/
 
+# VIM Plugins #
+###############
+.vim/plugged
+
 # Compiled source #
 ###################
 *.com

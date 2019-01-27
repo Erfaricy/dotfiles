@@ -15,10 +15,8 @@ FORMULAS=(
     mongodb
     jq
     mysql
-    toilet
     tmux
     bash
-    narwhal
     chromedriver
     "vim --override-system-vi"
     homebrew/dupes/grep
@@ -34,14 +32,8 @@ FORMULAS=(
     pigz
     pv
     rename
-    rhino
     sqlmap
     tree
-    ucspi-tcp # `tcpserver` et al.
-    webkit2png
-    xpdf
-    zopfli
-    homebrew/versions/lua52
     caskroom/cask/brew-cask
     rbenv ruby-build
     "git bash-completion"
@@ -57,8 +49,6 @@ CASKS=(
      dropbox
      google-chrome
      postgres
-     shiftit
-     skitch
      dashlane
 )
 

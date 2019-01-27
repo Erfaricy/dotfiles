@@ -157,8 +157,9 @@ map _ :nohl<CR>
 "
 " In ~/.vim/vimrc, or somewhere similar.
 let g:ale_linters = {
-\   'javascript': ['eslint'],
-\}
+            \   'javascript': ['eslint'],
+            \   'python': ['flake8']
+            \ }
 
 " Automatic commands
 if has("autocmd")
@@ -168,8 +169,6 @@ if has("autocmd")
   autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 endif
 
-" nnoremap <leader>sc :SyntasticCheck<CR>
-" nnoremap <leader>sd :SyntasticToggleMode<CR>
 noremap <leader>n :lnext<CR>
 noremap <leader>b :lprevious<CR>
 set wildignore=*.swp,*.bak,*.pyc,*.class,*.jar,*.gif,*.png,*.jpg

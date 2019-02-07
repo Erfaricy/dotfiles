@@ -47,6 +47,7 @@ CASKS=(
      slack
      brogue
      dropbox
+     spectacle
      google-chrome
      postgres
      dashlane

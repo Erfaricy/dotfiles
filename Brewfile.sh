@@ -45,6 +45,7 @@ FORMULAS=(
 
 CASKS=(
      slack
+     alfred
      brogue
      dropbox
      spectacle

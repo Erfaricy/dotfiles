@@ -41,6 +41,7 @@ FORMULAS=(
     git-flow
     bash-git-prompt
     ffmpeg
+    github/gh/gh
 )
 
 CASKS=(

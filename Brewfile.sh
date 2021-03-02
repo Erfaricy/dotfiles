@@ -9,7 +9,6 @@ FORMULAS=(
     tmux
     bash
     "vim --override-system-vi"
-    "homebrew/php/php55 --with-gmp"
     ack
     git
     "imagemagick --with-webp"
@@ -22,7 +21,6 @@ FORMULAS=(
     rename
     sqlmap
     tree
-    caskroom/cask/brew-cask
     rbenv ruby-build
     "git bash-completion"
     htop
@@ -30,16 +28,17 @@ FORMULAS=(
     bash-git-prompt
     ffmpeg
     github/gh/gh
-)
+    pyenv
+    node
 
-CASKS=(
-     slack
-     alfred
-     brogue
-     spectacle
-     google-chrome
-     postgres
-     dashlane
+    slack
+    alfred
+    brogue
+    spectacle
+    google-chrome
+    postgres
+    dashlane
+    visual-studio-code
 )
 
 
@@ -61,11 +60,6 @@ function install_brewfiles() {
     done
 }
 
-function install_caskfiles() {
-    for cask in "${CASKS[@]}"; do
-        brew cask install $cask
-    done
-}
 
 function main() {
     setup
@@ -74,7 +68,6 @@ function main() {
     brew upgrade
 
     install_brewfiles
-    install_caskfiles
 
     brew linkapps --local
     brew cleanup

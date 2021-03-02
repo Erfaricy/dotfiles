@@ -98,3 +98,4 @@ if [ -f '/Users/emmettfaricy/Downloads/google-cloud-sdk/path.bash.inc' ]; then .
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/emmettfaricy/Downloads/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/emmettfaricy/Downloads/google-cloud-sdk/completion.bash.inc'; fi
+export PATH="/opt/homebrew/sbin:$PATH"

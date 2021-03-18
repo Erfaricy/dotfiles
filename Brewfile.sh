@@ -72,7 +72,6 @@ function main() {
     brew linkapps --local
     brew cleanup
     brew doctor
-    brew prune
 }
 
 main

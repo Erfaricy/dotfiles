@@ -1,10 +1,7 @@
 so ~/.vim/plugins.vim
 
 syntax on
-let g:solarized_termtrans=1
-let g:solarized_termcolors=256
 set background=dark
-colorscheme solarized
 autocmd vimenter * silent! lcd %:p:h
 set autochdir
 

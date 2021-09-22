@@ -100,3 +100,4 @@ if [ -f '/Users/emmettfaricy/Downloads/google-cloud-sdk/path.bash.inc' ]; then .
 if [ -f '/Users/emmettfaricy/Downloads/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/emmettfaricy/Downloads/google-cloud-sdk/completion.bash.inc'; fi
 export PATH="/opt/homebrew/sbin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
+eval "$(pyenv init -)"

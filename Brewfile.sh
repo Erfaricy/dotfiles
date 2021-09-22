@@ -39,6 +39,7 @@ FORMULAS=(
     postgres
     dashlane
     visual-studio-code
+    caffeine
 )
 
 

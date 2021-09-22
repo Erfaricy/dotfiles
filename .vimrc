@@ -1,5 +1,3 @@
-so ~/.vim/plugins.vim
-
 syntax on
 set background=dark
 autocmd vimenter * silent! lcd %:p:h

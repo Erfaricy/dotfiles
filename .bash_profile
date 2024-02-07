@@ -101,3 +101,9 @@ if [ -f '/Users/emmettfaricy/Downloads/google-cloud-sdk/completion.bash.inc' ]; 
 export PATH="/opt/homebrew/sbin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 eval "$(pyenv init -)"
+
+export NVM_HOME=/Users/emmettfaricy/.nvm
+
+export PATH=${PATH}:${NVM_HOME}
+
+source ${NVM_HOME}/nvm.sh

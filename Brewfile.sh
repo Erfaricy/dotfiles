@@ -40,6 +40,7 @@ FORMULAS=(
     dashlane
     visual-studio-code
     caffeine
+    notion
 )
 
 
